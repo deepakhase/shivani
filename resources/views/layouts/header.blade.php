@@ -5,12 +5,24 @@
 	<div class="top_bar_2">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5">
+				<div class="col-md-4">
 					<div class="pull-left">
 						<em class="contct_2"><i class="fa fa-phone"></i> Call Us  on 0800 123 46 4747</em>
 					</div>
 				</div>
-				<div class="col-md-7">
+				<div class="col-md-4">
+				@if(session()->has('success'))
+					<div class="alert alert-success" role="alert">
+						{{session()->get('success')}}
+					</div>
+				@endif
+				@if(session()->has('error'))
+					<div class="alert alert-danger" role="alert">
+						{{session()->get('error')}}
+					</div>
+				@endif
+				</div>
+				<div class="col-md-4">
 					<ul class="login_wrap">
 						<li><a href="#" data-toggle="modal" data-target="#reg-box"><i class="fa fa-user"></i>Register</a></li>
 						<li><a href="#" data-toggle="modal" data-target="#signin-box"><i class="fa fa-sign-in"></i>Sign In</a></li>

@@ -4,8 +4,10 @@ namespace App\Http\Controllers\Auth;
 
 use App\User;
 use App\Http\Controllers\Controller;
+use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Twilio,Session,Services_Twilio;
 
 class RegisterController extends Controller
 {
@@ -67,5 +69,40 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
+    }
+
+    public function sendOtp(\Illuminate\Http\Request $req){
+        $code = rand ( 10000 , 99999 );
+        $message = "Your verification code is $code";
+        $res = Twilio::message($req->mobno, $message);
+        if($res->error_code){
+
+            Session::flash('error',$res->error_message);
+        }
+        else{
+            $res =  User::create([
+                'name' => $req->name,
+                'email' => $req->email,
+                'password' => bcrypt($req->password),
+                'mobno' => $req->mobno,
+                'code' => $code
+            ]);
+            $data = array('id' =>$res->id, 'code' => $res->code);
+            return view('layouts.verficationCode',compact('data'));
+        }
+    }
+
+    public function verifyOtp(\Illuminate\Http\Request $req)
+    {
+      //  DD($req->code,$req->newcode);
+        if ($req->code == $req->newcode)
+            Session::flash('success', 'Succefully Login');
+        else{
+            User::destroy($req->id);
+            Session::flash('error', 'OTP verification failed');
+        }
+
+
+        return redirect()->route('main');
     }
 }

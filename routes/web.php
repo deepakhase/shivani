@@ -17,8 +17,11 @@ Route::get('/', function () {
 
 Route::get('/main', function () {
     return view('main');
-});
+})->name('main');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('/main', 'Auth\RegisterController@sendOtp')->name('register.otp');
+Route::post('/verifyotp', 'Auth\RegisterController@verifyOtp')->name('register.verify.otp');
