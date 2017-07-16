@@ -1,57 +1,5 @@
 @charset "utf-8";
-/*==================================================
-
-	Project: University Of Education
-	Version: 1.0
-	Last change: 18/03/16
-	Author : KodeForest
-
-/**
- * Table of Contents :
- 
- * 1.0 - DEFAULT CSS START
- * 2.0 - KF EDUCATION 2 HEADER CSS START 
- * 3.0 - MAIN BANNER CSS Strat
- * 4.0 - KF INNER PAGE BANNER CSS START
- * 5.0 - DEFALT HEADINGS CSS START
- * 6.0 - DEFALT HEADINGS CSS START
- * 7.0 - Courses List Pge CSS Strat 
- * 8.0 - SIDE BAR CSS START
- * 9.0 - OUR TEACHER PAGE CSS START
- * 10.0 - OUR EVENT PAGE CSS START
- * 11.0 - OUR BLOG PAGE CSS START
- * 12.0 - ABOUt US PAGE CSS START
- * 13.0 - EVENT LIST PAGE CSS START 
- * 14.0 - OUR COURSES $ COLUM PAGE CSS START
- * 15.0 - OUR COURSES PAGE CSS START
- * 16.0 - BLOG  3 PAGE CSS START
- * 17.0 - TEACHER BIO DETAILS PAGE CSS START
- * 18.0 - EVENT DETAILS PAGE CSS START
- * 19.0 - BLOG DETAILS PAGE CSS START
- * 20.0 - COURSES DETAILS PAGE CSS START
- * 21.0 - CONTACT US 1 PAGE CSS START
- * 22.0 - CONTACT US 2 PAGE CSS START
- * 23.0 - FILTERABLE GALLERY PAGE CSS START
- * 24.0 - KF EDUCATION 404 PAGE CSS START
- * 25.0 - CHECKBOX AND RADIO BUTTON CSS start
- 
-	[Color codes]
-
-	Background: #ffffff (white)
-	Content: #999999 (light black)
-	Header h1: #111111 (dark black)
-	Header h2: #111111 (dark black)
-	Footer:  #000000 (dark black)
-
-	a (standard): #999999 (light black)
-	a (visited): #999999 (light black)
-	a (active): #999999 (light black)
- *
-/*
-	  ==============================================================
-		   DEFAULT CSS START
-	  ==============================================================
-*/
+/* ===============================  DEFAULT CSS START =========================== */
 .kode_wrapper,
 header,
 section,
@@ -73,7 +21,7 @@ footer{
 }
 section,
 .kf_footer_bg{
-	padding:70px 0px;	
+	padding:0px;	
 }
 .inner-content-holder{
 	float: left;
@@ -1054,7 +1002,7 @@ section,
     margin-top: 3px;
 }
 .kf_edu2_search_wrap form > button:hover{
-	background-color: #000000;
+	background-color: #b22d30;
 }
 /*search wrap end*/
 /*edu2 welcome wrap start*/
@@ -1068,7 +1016,7 @@ section,
 	width: 50%;
 	top: 0;
 	bottom: 0;
-	background-image: url(../extra-images/bg-1.jpg);
+	background-image: url(../images/bg-1.jpg);
 	background-size: cover;
 	background-position: center;
 	position: absolute;
@@ -1169,7 +1117,7 @@ section,
     padding: 4px 0 8px;
     text-transform: capitalize;
     margin: 0px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family:'Conv_Ubuntu-Regular',Sans-Serif;
 }
 .kf_edu2_tab_wrap  .nav.nav-tabs > li:first-child {
     margin-left: 0;
@@ -1905,7 +1853,7 @@ section,
 	color: #333;
 	text-transform: capitalize;
 	font-size: 24px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family:'Conv_Ubuntu-Regular',Sans-Serif;
 }
 .edu2_pricing_des:hover span sup,
 .edu2_pricing_des:hover span h3,
@@ -1929,7 +1877,7 @@ section,
 	display: block;	
 	font-weight: normal;
 	color: #666;
-	font-family: 'Ubuntu', sans-serif;
+	font-family:'Conv_Ubuntu-Regular',Sans-Serif;
 }
 .edu2_pricing_des ul li:last-child{
 	margin-bottom: 0;
@@ -2885,7 +2833,7 @@ section,
 /*edu2 welcome wrap end*/
 /*edu student slider start*/
 .edu_student_wrap_bg{
-	background-image: url(../extra-images/student.jpg);
+	background-image: url(../images/student.jpg);
 	position: relative;
 	background-size:cover;
 }
@@ -3154,7 +3102,7 @@ section,
 	width: 100%;
 }
 .inr_pg_search_wrap:before{
-	background-image: url(../extra-images/search_bar_bg.png);
+	background-image: url(../images/search_bar_bg.png);
 	left: 0;
 	right: 0;
 	top: 0;
@@ -4856,7 +4804,7 @@ section,
     font-size: 16px;
     text-transform: capitalize;
     width: auto;
-	font-family: "Raleway",sans-serif;
+	font-family:'Conv_Raleway-Regular',Sans-Serif;
 	font-weight:normal;
 	padding:8px 0;
 	margin:0;
@@ -4896,7 +4844,7 @@ section,
     font-size: 16px;
     text-transform: capitalize;
     width: auto;
-	font-family: "Raleway",sans-serif;
+	font-family:'Conv_Raleway-Regular',Sans-Serif;
 	font-weight:normal;
 	padding:8px 0;
 	margin:0;
@@ -5722,3 +5670,101 @@ input:checked + .radio-value {
 	text-align:center;
 	color:#999;
 }
+
+
+/*-----------------------All Custom Css Add Here-----------------------*/
+.edu2_faculty_des2 h6{ font-size: 16px; }
+
+
+
+
+/*-----------------------All Common Componants-----------------------*/
+.borderBottomDashed{border-bottom: 1px dashed #ccc!important; }
+.border-radius-none{border-radius: 0px!important;}
+
+
+/*-----------------------All Margin -----------------------*/
+.noallmargin{margin: 0px!important;}
+
+.notopmargin{margin-top: 0px!important;}
+.topmargin10{margin-top:10px!important;}
+.topmargin20{margin-top:20px!important;}
+.topmargin30{margin-top:30px!important;}
+.topmargin40{margin-top:40px!important;}
+.topmargin50{margin-top:50px!important;}
+.topmargin60{margin-top:60px!important;}
+.topmargin80{margin-top:80px!important;}
+.topmargin100{margin-top:100px!important;}
+
+.norightmargin{margin-right: 0px!important;}
+.rightmargin10{margin-right: 10px!important;}
+.rightmargin20{margin-right: 20px!important;}
+.rightmargin30{margin-right: 30px!important;}
+.rightmargin40{margin-right: 40px!important;}
+.rightmargin50{margin-right: 50px!important;}
+.rightmargin60{margin-right: 60px!important;}
+.rightmargin80{margin-right: 80px!important;}
+.rightmargin100{margin-right: 100px!important;}
+
+.nobottommargin{margin-bottom: 0px!important;}
+.bottommargin10{margin-bottom: 10px!important;}
+.bottommargin20{margin-bottom: 20px!important;}
+.bottommargin30{margin-bottom: 30px!important;}
+.bottommargin40{margin-bottom: 40px!important;}
+.bottommargin50{margin-bottom: 50px!important;}
+.bottommargin60{margin-bottom: 60px!important;}
+.bottommargin80{margin-bottom: 80px!important;}
+.bottommargin100{margin-bottom: 100px!important;}
+
+.noleftmargin{margin-left: 0px!important;}
+.leftmargin10{margin-left: 10px!important;}
+.leftmargin20{margin-left: 20px!important;}
+.leftmargin30{margin-left: 30px!important;}
+.leftmargin40{margin-left: 40px!important;}
+.leftmargin50{margin-left: 50px!important;}
+.leftmargin60{margin-left: 60px!important;}
+.leftmargin80{margin-left: 80px!important;}
+.leftmargin50{margin-left: 100px!important;}
+
+/*-----------------------All Padding -----------------------*/
+.noallpadding{padding: 0px!important;}
+
+.notoppadding{padding-top: 0px!important;}
+.toppadding10{padding-top:10px!important;}
+.toppadding20{padding-top:20px!important;}
+.toppadding30{padding-top:30px!important;}
+.toppadding40{padding-top:40px!important;}
+.toppadding50{padding-top:50px!important;}
+.toppadding60{padding-top:60px!important;}
+.toppadding80{padding-top:80px!important;}
+.toppadding100{padding-top:100px!important;}
+
+.norightpadding{padding-right: 0px!important;}
+.rightpadding10{padding-right: 10px!important;}
+.rightpadding20{padding-right: 20px!important;}
+.rightpadding30{padding-right: 30px!important;}
+.rightpadding40{padding-right: 40px!important;}
+.rightpadding50{padding-right: 50px!important;}
+.rightpadding60{padding-right: 60px!important;}
+.rightpadding80{padding-right: 80px!important;}
+.rightpadding100{padding-right: 100px!important;}
+
+.nobottompadding{padding-bottom: 0px!important;}
+.bottompadding10{padding-bottom: 10px!important;}
+.bottompadding20{padding-bottom: 20px!important;}
+.bottompadding30{padding-bottom: 30px!important;}
+.bottompadding40{padding-bottom: 40px!important;}
+.bottompadding50{padding-bottom: 50px!important;}
+.bottompadding60{padding-bottom: 60px!important;}
+.bottompadding80{padding-bottom: 80px!important;}
+.bottompadding100{padding-bottom: 100px!important;}
+
+.noleftpadding{padding-left: 0px!important;}
+.leftpadding10{padding-left: 10px!important;}
+.leftpadding20{padding-left: 20px!important;}
+.leftpadding30{padding-left: 30px!important;}
+.leftpadding40{padding-left: 40px!important;}
+.leftpadding50{padding-left: 50px!important;}
+.leftpadding60{padding-left: 60px!important;}
+.leftpadding80{padding-left: 80px!important;}
+.leftpadding100{padding-left: 100px!important;}

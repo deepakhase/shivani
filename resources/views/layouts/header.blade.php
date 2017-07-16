@@ -51,56 +51,11 @@
 								<li><a href="#">Home Tuitions </a></li>
 							</ul>
 						</li>
-						<li><a href="#">ICSE</a>
-							<ul>
-								<li><a href="#">VII</a></li>
-								<li><a href="#">VIII</a></li>
-								<li><a href="#">IX</a></li>
-								<li><a href="#">X</a></li>
-								<li><a href="#">XI</a></li>
-								<li><a href="#">XII</a></li>
-							</ul>
-						</li>
-						<li><a href="#">CBSE</a>
-							<ul>
-								<li><a href="#">VII</a></li>
-								<li><a href="#">VIII</a></li>
-								<li><a href="#">IX</a></li>
-								<li><a href="#">X</a></li>
-								<li><a href="#">XI</a></li>
-								<li><a href="#">XII</a></li>
-							</ul>
-						</li>
-						<li><a href="#">IGCSE</a>
-							<ul>
-								<li><a href="#">VII</a></li>
-								<li><a href="#">VIII</a></li>
-								<li><a href="#">IX</a></li>
-								<li><a href="#">X</a></li>
-								<li><a href="#">XI</a></li>
-								<li><a href="#">XII</a></li>
-							</ul>
-						</li>
-						<li><a href="#">IB</a>
-							<ul>
-								<li><a href="#">VII</a></li>
-								<li><a href="#">VIII</a></li>
-								<li><a href="#">IX</a></li>
-								<li><a href="#">X</a></li>
-								<li><a href="#">XI</a></li>
-								<li><a href="#">XII</a></li>
-							</ul>
-						</li>
-						<li><a href="#">A-LEVEL</a>
-							<ul>
-								<li><a href="#">VII</a></li>
-								<li><a href="#">VIII</a></li>
-								<li><a href="#">IX</a></li>
-								<li><a href="#">X</a></li>
-								<li><a href="#">XI</a></li>
-								<li><a href="#">XII</a></li>
-							</ul>
-						</li>
+						<li><a href="#">ICSE</a></li>
+						<li><a href="#">CBSE</a></li>
+						<li><a href="#">IGCSE</a></li>
+						<li><a href="#">IB</a></li>
+						<li><a href="#">A-LEVEL</a></li>
 						<li><a href="#">Teacher</a></li>
 						<li><a href="#">Gallery</a>
 							<ul>
@@ -128,56 +83,11 @@
 										<li><a href="#">Home Tuitions </a></li>
 									</ul>
 								</li>
-								<li class="menu-item kode-parent-menu"><a href="#">ICSE</a>
-									<ul class="dl-submenu">
-										<li><a href="#">VII</a></li>
-										<li><a href="#">VII</a></li>
-										<li><a href="#">IX</a></li>
-										<li><a href="#">X</a></li>
-										<li><a href="#">XI</a></li>
-										<li><a href="#">XII</a></li>
-									</ul>
-								</li>
-								<li class="menu-item kode-parent-menu"><a href="#">CBSE</a>
-									<ul class="dl-submenu">
-										<li><a href="#">VII</a></li>
-										<li><a href="#">VII</a></li>
-										<li><a href="#">IX</a></li>
-										<li><a href="#">X</a></li>
-										<li><a href="#">XI</a></li>
-										<li><a href="#">XII</a></li>
-									</ul>
-								</li>
-								<li class="menu-item kode-parent-menu"><a href="#">IGCSE</a>
-									<ul class="dl-submenu">
-										<li><a href="#">VII</a></li>
-										<li><a href="#">VII</a></li>
-										<li><a href="#">IX</a></li>
-										<li><a href="#">X</a></li>
-										<li><a href="#">XI</a></li>
-										<li><a href="#">XII</a></li>
-									</ul>
-								</li>
-								<li class="menu-item kode-parent-menu"><a href="#">IB</a>
-									<ul class="dl-submenu">
-										<li><a href="#">VII</a></li>
-										<li><a href="#">VII</a></li>
-										<li><a href="#">IX</a></li>
-										<li><a href="#">X</a></li>
-										<li><a href="#">XI</a></li>
-										<li><a href="#">XII</a></li>
-									</ul>
-								</li>
-								<li class="menu-item kode-parent-menu"><a href="#">A-LEVEL</a>
-									<ul class="dl-submenu">
-										<li><a href="#">VII</a></li>
-										<li><a href="#">VII</a></li>
-										<li><a href="#">IX</a></li>
-										<li><a href="#">X</a></li>
-										<li><a href="#">XI</a></li>
-										<li><a href="#">XII</a></li>
-									</ul>
-								</li>
+								<li class="menu-item kode-parent-menu"><a href="#">ICSE</a></li>
+								<li class="menu-item kode-parent-menu"><a href="#">CBSE</a></li>
+								<li class="menu-item kode-parent-menu"><a href="#">IGCSE</a></li>
+								<li class="menu-item kode-parent-menu"><a href="#">IB</a></li>
+								<li class="menu-item kode-parent-menu"><a href="#">A-LEVEL</a></li>
 								<li><a href="#">Teacher</a></li>
 								<li class="menu-item kode-parent-menu"><a href="#">Gallery</a>
 									<ul class="dl-submenu">

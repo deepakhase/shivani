@@ -71,9 +71,9 @@
 .loadmore a:hover,
 .contact_2 button:hover
 {
-    background-color: #000000;
+    background-color: #b22d30;
     color: #fff;
-    border-color: #000000 !important;
+    border-color: #b22d30 !important;
 }
 /*COURSES LIST PAGE IMG EFFEC START*/
 .kf_courses_wrap  figure:before{

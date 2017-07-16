@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,greek);
+/*@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,greek);
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 
@@ -22,6 +22,18 @@
     font-family: 'Roboto Slab', serif;
     font-family: 'Dosis', sans-serif;
 */
+
+/** Ubuntu Font **/
+@font-face {
+    font-family: 'Conv_Ubuntu-Regular';
+    src: url('../fonts/Ubuntu-Regular.eot');
+    src: local('☺'), 
+    url('../fonts/Ubuntu-Regular.woff') format('woff'), 
+    url('../fonts/Ubuntu-Regular.ttf') format('truetype'), 
+    url('../fonts/Ubuntu-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 *{
 	box-sizing:border-box;
