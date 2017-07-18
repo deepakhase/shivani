@@ -464,7 +464,7 @@
                         <figure>
                             <img alt="" src="images/home-gallery1.jpg">
                             <figcaption>
-                                <a data-rel="prettyPhoto[gallery2]" href="images/home-gallery1.jpg"><i class="fa fa-eye"></i></a>
+                                <a rel="prettyPhoto[gallery3]" href="images/home-gallery1.jpg" class="zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-link"></i></a>
                                 <h5>Lorem Ipsum Proin</h5>
                                 <p>Convocation</p>
@@ -477,7 +477,7 @@
                         <figure>
                             <img alt="" src="images/home-gallery2.jpg">
                             <figcaption>
-                                <a data-rel="prettyPhoto[gallery2]" href="images/home-gallery2.jpg"><i class="fa fa-eye"></i></a>
+                                <a rel="prettyPhoto[gallery2]" href="images/home-gallery2.jpg"><i class="fa fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-link"></i></a>
                                 <h5>Lorem Ipsum Proin</h5>
                                 <p>Convocation</p>
@@ -490,7 +490,7 @@
                         <figure>
                             <img alt="" src="images/home-gallery3.jpg">
                             <figcaption>
-                                <a data-rel="prettyPhoto[gallery2]" href="images/home-gallery3.jpg"><i class="fa fa-eye"></i></a>
+                                <a rel="prettyPhoto[gallery2]" href="images/home-gallery3.jpg"><i class="fa fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-link"></i></a>
                                 <h5>Lorem Ipsum Proin</h5>
                                 <p>Convocation</p>
@@ -503,7 +503,7 @@
                         <figure>
                             <img alt="" src="images/home-gallery4.jpg">
                             <figcaption>
-                                <a data-rel="prettyPhoto[gallery2]" href="images/home-gallery4.jpg"><i class="fa fa-eye"></i></a>
+                                <a rel="prettyPhoto[gallery2]" href="images/home-gallery4.jpg"><i class="fa fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-link"></i></a>
                                 <h5>Lorem Ipsum Proin</h5>
                                 <p>Convocation</p>
@@ -516,7 +516,7 @@
                         <figure>
                             <img alt="" src="images/home-gallery5.jpg">
                             <figcaption>
-                                <a data-rel="prettyPhoto[gallery2]" href="images/home-gallery5.jpg"><i class="fa fa-eye"></i></a>
+                                <a rel="prettyPhoto[gallery2]" href="images/home-gallery5.jpg"><i class="fa fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-link"></i></a>
                                 <h5>Lorem Ipsum Proin</h5>
                                 <p>Convocation</p>
@@ -529,7 +529,7 @@
                         <figure>
                             <img alt="" src="images/home-gallery6.jpg">
                             <figcaption>
-                                <a data-rel="prettyPhoto[gallery2]" href="images/home-gallery6.jpg"><i class="fa fa-eye"></i></a>
+                                <a rel="prettyPhoto[gallery2]" href="images/home-gallery6.jpg"><i class="fa fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-link"></i></a>
                                 <h5>Lorem Ipsum Proin</h5>
                                 <p>Convocation</p>
@@ -542,7 +542,7 @@
                         <figure>
                             <img alt="" src="images/home-gallery7.jpg">
                             <figcaption>
-                                <a data-rel="prettyPhoto[gallery2]" href="images/home-gallery7.jpg"><i class="fa fa-eye"></i></a>
+                                <a rel="prettyPhoto[gallery2]" href="images/home-gallery7.jpg"><i class="fa fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-link"></i></a>
                                 <h5>Lorem Ipsum Proin</h5>
                                 <p>Convocation</p>
@@ -555,7 +555,7 @@
                         <figure>
                             <img alt="" src="images/home-gallery3.jpg">
                             <figcaption>
-                                <a data-rel="prettyPhoto[gallery2]" href="images/home-gallery3.jpg"><i class="fa fa-eye"></i></a>
+                                <a rel="prettyPhoto[gallery2]" href="images/home-gallery3.jpg"><i class="fa fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-link"></i></a>
                                 <h5>Lorem Ipsum Proin</h5>
                                 <p>Convocation</p>
@@ -576,24 +576,5 @@
 </div>
 
 <!--EDU2 FOOTER WRAP START-->
-<!--NEWS LETTERS START-->
-<div class="edu2_ft_topbar_wrap topmargin80">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="edu2_ft_topbar_des">
-                    <h5>Subcribe weekly newsletter</h5>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="edu2_ft_topbar_des">
-                    <form>
-                        <input type="email" placeholder="Enter Valid Email Address">
-                        <button><i class="fa fa-paper-plane"></i>Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 @endsection

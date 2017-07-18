@@ -4,7 +4,7 @@
 	<meta charset="utf-8">    
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Education</title>
+	<title>Welcome to SHIVANI</title>
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<!-- Bootstrap core CSS -->
 	<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
@@ -52,6 +52,7 @@
 		@include('layouts.loginModal')
 		@include('layouts.registerModal')
 		@yield('content')
+		@include('layouts.subcribe')
 		@include('layouts.footer')
 	</div>
 

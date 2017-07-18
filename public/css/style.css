@@ -1117,7 +1117,7 @@ section,
     padding: 4px 0 8px;
     text-transform: capitalize;
     margin: 0px;
-    font-family:'Conv_Ubuntu-Regular',Sans-Serif;
+    font-family: 'Lato';
 }
 .kf_edu2_tab_wrap  .nav.nav-tabs > li:first-child {
     margin-left: 0;
@@ -1853,7 +1853,7 @@ section,
 	color: #333;
 	text-transform: capitalize;
 	font-size: 24px;
-	font-family:'Conv_Ubuntu-Regular',Sans-Serif;
+	font-family: 'Lato';
 }
 .edu2_pricing_des:hover span sup,
 .edu2_pricing_des:hover span h3,
@@ -1877,7 +1877,7 @@ section,
 	display: block;	
 	font-weight: normal;
 	color: #666;
-	font-family:'Conv_Ubuntu-Regular',Sans-Serif;
+	font-family: 'Lato';
 }
 .edu2_pricing_des ul li:last-child{
 	margin-bottom: 0;
@@ -2698,7 +2698,7 @@ section,
 .edu2_blogpg_des ul li{
 	display: inline-block;
 	margin-right: 15px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato';
 	font-size:15px;
 	font-weight: normal;
 }
@@ -3425,7 +3425,7 @@ section,
     display: block;
     font-size: 16px;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato';
     line-height: 24px;
 }
 .blog_3_sidebar span{
@@ -4804,7 +4804,7 @@ section,
     font-size: 16px;
     text-transform: capitalize;
     width: auto;
-	font-family:'Conv_Raleway-Regular',Sans-Serif;
+	font-family: 'Lato';
 	font-weight:normal;
 	padding:8px 0;
 	margin:0;
@@ -4844,7 +4844,7 @@ section,
     font-size: 16px;
     text-transform: capitalize;
     width: auto;
-	font-family:'Conv_Raleway-Regular',Sans-Serif;
+	font-family: 'Lato';
 	font-weight:normal;
 	padding:8px 0;
 	margin:0;
@@ -5561,7 +5561,7 @@ section,
 	color:#a5afb9;
 	font-weight:bold;
 	padding:18px 15px;
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Lato';
 	margin:0px;
 	border:none;
 	background-color:#f7f7f7;
@@ -5583,7 +5583,7 @@ section,
     width: 100%;
 	color:#c4cdd6;
 	text-align:left;
-	font-family:15px;
+	font-size:15px;
 	
 }
 .input-container .dropdown button p{
