@@ -12,8 +12,11 @@
 				</div>
 				<div class="col-md-7">
 					<ul class="login_wrap">
-						<li><a href="/" data-toggle="modal" data-target="#reg-box"><i class="fa fa-user"></i>Register</a></li>
-						<li><a href="/" data-toggle="modal" data-target="#signin-box"><i class="fa fa-sign-in"></i>Sign In</a></li>
+						<li><a data-toggle="modal" data-target="#reg-box"><i class="fa fa-user"></i>Register</a></li>
+						<li><a data-toggle="modal" data-target="#signin-box"><i class="fa fa-sign-in"></i>Sign In</a></li>
+
+						<li><a><i class="fa fa-user"></i>Welcome Guest</a></li>
+						<li><a><i class="fa fa-sign-out"></i>Logout</a></li>
 					</ul>	    					
 				</div>
 			</div>

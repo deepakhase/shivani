@@ -428,7 +428,7 @@ section,
 .nav_2{
 	float: left;
 	width: 100%;
-	padding:36px 0; 
+	padding:30px 0; 
 }
 .nav_2 ul{
 	float: left;
@@ -882,7 +882,7 @@ section,
 	width: 100%;
 	position: relative;
 	background-color: #f8f8f8;
-	padding:10px; 
+	padding:25px 10px; 
 	margin-bottom: 30px;
 }
 .kf_cur_catg_des:before{
@@ -4412,7 +4412,7 @@ section,
     border: medium none;
     float: left;
     width: 100%;
-    border-bottom:solid 1px #eee;
+    border-bottom:solid 1px #e1e1e1;
 }
 .kf_courses_tabs .nav-tabs > li {
     float: left;
@@ -4600,11 +4600,19 @@ section,
 	float: left;
 	width: 100%;
 	border: 1px solid #dedede;
-	padding:3px 10px 5px 38px;
+	padding:5px 20px;
 	line-height: 34px;
 }
+
+.form-textbox{
+	float: left!important;
+	width: 100%!important;
+	border: 1px solid #dedede!important;
+	padding:5px 20px!important;
+	line-height: 34px!important;
+}
+
 .inputs_des textarea{
-	height: 308px;
 	resize:none;
 }
 .contact_des button{
@@ -4615,6 +4623,19 @@ section,
 	line-height: 14px;
 	color: #fff;
 	width: 100%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.theam-button{
+	display: block;
+	padding: 15px 20px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+	color: #fff;
+	width: 100%;
+	background-color: #3e4095;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -5328,7 +5349,6 @@ section,
 	text-align:center;
 }
 .kode-gallery-section{
-	background:#f9f9f9;
 	float:left;
 	width:100%;
 }
@@ -5544,7 +5564,7 @@ section,
 	text-align:center;
 }
 .user-box-footer a{
-	color:#72c8fa;
+	color:#3e4095;
 }
 #register .nav-tabs{
 	border:none;
@@ -5681,8 +5701,8 @@ input:checked + .radio-value {
 /*-----------------------All Common Componants-----------------------*/
 .borderBottomDashed{border-bottom: 1px dashed #ccc!important; }
 .border-radius-none{border-radius: 0px!important;}
-
-
+.no-border>tbody>tr>th{border-top:0px!important; border: 0px!important;}
+.no-border>tbody>tr>td{border-top:0px!important; border: 0px!important;}
 /*-----------------------All Margin -----------------------*/
 .noallmargin{margin: 0px!important;}
 

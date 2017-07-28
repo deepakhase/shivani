@@ -153,7 +153,7 @@
                             <!--COURSE CATEGORIES DES START-->
                             <div class="col-md-6">
                                 <a href="#">
-                                    <div class="kf_cur_catg_des color-5">
+                                    <div class="kf_cur_catg_des color-5 nomargin">
                                         <span><i class="fa fa-graduation-cap"></i></span>
                                         <div class="kf_cur_catg_capstion">
                                             <h5>A-LEVEL</h5>
@@ -165,9 +165,9 @@
                             <!--COURSE CATEGORIES DES END-->
 
                             <!--COURSE CATEGORIES DES START-->
-                            <div class="col-md-6">
+                            <div class="col-md-6 ">
                                 <a href="#">
-                                    <div class="kf_cur_catg_des color-6">
+                                    <div class="kf_cur_catg_des color-6 nomargin">
                                         <span><i class="fa fa-graduation-cap"></i></span>
                                         <div class="kf_cur_catg_capstion">
                                             <h5>Other</h5>
@@ -185,7 +185,7 @@
 
                 <div class="col-md-4">
                     <!-- EDU2 SEARCH WRAP START -->
-                    <div class="kf_edu2_search_wrap">
+                    <div class="kf_edu2_search_wrap toppadding20 bottompadding20">
                         <div class="kf_edu2_heading1">
                             <h3>Enquiry Now!</h3>
                         </div>

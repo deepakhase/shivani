@@ -426,3 +426,14 @@ function initialize() {
 		  $(this).dlmenu();
 		});
 	}
+	/*
+    ============================================================== 
+ 				Date Picker
+    ============================================================== 
+    */
+	$(function () {
+		$("#datepicker").datepicker({ 
+			autoclose: true, 
+			todayHighlight: true
+		}).datepicker('update', new Date());;
+	});

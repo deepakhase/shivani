@@ -27,15 +27,6 @@
                             <i class="fa fa-unlock"></i>
                         </div>
                         <div class="input-container">
-                            <label>
-                                <span class="radio">
-                                    <input type="checkbox" name="foo" value="1" checked>
-                                    <span class="radio-value" aria-hidden="true"></span>
-                                </span>
-                                <span>Remember me</span>
-                            </label>
-                        </div>
-                        <div class="input-container">
                             <button class="btn-style">Sign Up</button>
                         </div>
                     </div>

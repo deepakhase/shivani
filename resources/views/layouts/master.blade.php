@@ -8,6 +8,7 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<!-- Bootstrap core CSS -->
 	<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+	<link href="{{asset('css/datepicker.css')}}" rel="stylesheet" type="text/css" />
 	<!-- Full Calender CSS -->
 	<link href="{{asset('css/fullcalendar.css')}}" rel="stylesheet">
 	<!-- Owl Carousel CSS -->
@@ -58,40 +59,41 @@
 
 	<!--Bootstrap core JavaScript-->
 	<script src="{{asset('/js/jquery-2.2.3.min.js')}}"></script>
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="{{asset('/js/jquery.js')}}"></script>
+	<script src="{{asset('/js/bootstrap.min.js')}}"></script>	
+	<script src="{{asset('/js/bootstrap-datepicker.js')}}"></script>
 	<!--Bx-Slider JavaScript-->
-	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="{{asset('/js/jquery.bxslider.min.js')}}"></script>
 	<!--Owl Carousel JavaScript-->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="{{asset('/js/owl.carousel.min.js')}}"></script>
 	<!--Pretty Photo JavaScript-->
-	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="{{asset('/js/jquery.prettyPhoto.js')}}"></script>
 	<!--Dl Menu Script-->
-	<script src="js/dl-menu/modernizr.custom.js"></script>
+	<script src="{{asset('/js/dl-menu/modernizr.custom.js')}}"></script>
 	<!--Dl Menu Script-->
-	<script src="js/dl-menu/jquery.dlmenu.js"></script>
+	<script src="{{asset('/js/dl-menu/jquery.dlmenu.js')}}"></script>
 	<!--Dl Menu Script-->
-	<script src="js/dl-menu/modernizr.custom.js"></script>
+	<script src="{{asset('/js/dl-menu/modernizr.custom.js')}}"></script>
 	<!--Dl Menu Script-->
-	<script src="js/dl-menu/jquery.dlmenu.js"></script>
+	<script src="{{asset('/js/dl-menu/jquery.dlmenu.js')}}"></script>
 	<!--Full Calender JavaScript-->
-	<script src="js/moment.min.js"></script>
-	<script src="js/fullcalendar.min.js"></script>
-	<script src="js/jquery.downCount.js"></script>
+	<script src="{{asset('/js/moment.min.js')}}"></script>
+	<script src="{{asset('/js/fullcalendar.min.js')}}"></script>
+	<script src="{{asset('/js/jquery.downCount.js')}}"></script>
 	<!--Image Filterable JavaScript-->
-	<script src="js/jquery-filterable.js"></script>
+	<script src="{{asset('/js/jquery-filterable.js')}}"></script>
 	<!--Accordian JavaScript-->
-	<script src="js/jquery.accordion.js"></script>
+	<script src="{{asset('/js/jquery.accordion.js')}}"></script>
 	<!--Number Count (Waypoints) JavaScript-->
-	<script src="js/waypoints-min.js"></script>
+	<script src="{{asset('/js/waypoints-min.js')}}"></script>
 	<!--v ticker-->
-	<script src="js/jquery.vticker.min.js"></script>
+	<script src="{{asset('/js/jquery.vticker.min.js')}}"></script>
 	<!--select menu-->
-	<script src="js/jquery.selectric.min.js"></script>
+	<script src="{{asset('/js/jquery.selectric.min.js')}}"></script>
 	<!--Side Menu-->
-	<script src="js/jquery.sidr.min.js"></script>
+	<script src="{{asset('/js/jquery.sidr.min.js')}}"></script>
 	<!--Custom JavaScript-->
-	<script src="js/custom.js"></script>
+	<script src="{{asset('/js/custom.js')}}"></script>
 	@yield('script')
 </body>
 </html>

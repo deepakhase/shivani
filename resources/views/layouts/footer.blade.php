@@ -4,9 +4,9 @@
 	<div class="container">
 		<div class="row">
 			<!--EDU2 FOOTER CONTANT DES START-->
-			<div class="col-md-3">
+			<div class="col-md-2">
 				<div class="widget widget-links">
-					<h5>Information</h5>
+					<h5>MAIN MENU</h5>
 					<ul>
 						<li><a href="#">About us</a></li>
 						<li><a href="#">Our Stories</a></li>
@@ -19,9 +19,9 @@
 			<!--EDU2 FOOTER CONTANT DES END-->
 
 			<!--EDU2 FOOTER CONTANT DES START-->
-			<div class="col-md-3">
+			<div class="col-md-2">
 				<div class="widget widget-links">
-					<h5>Student Help</h5>
+					<h5>MAIN MENU</h5>
 					<ul>
 						<li><a href="#">My Info</a></li>
 						<li><a href="#">My Questions</a></li>
@@ -34,30 +34,22 @@
 			<!--EDU2 FOOTER CONTANT DES END-->
 
 			<!--EDU2 FOOTER CONTANT DES START-->
-			<div class="col-md-3">
+			<div class="col-md-4">
 				<div class="widget wiget-instagram">
-					<h5>Instagram</h5>
-					<ul>
-						<li><a href="#"><img src="extra-images/instagram-1.jpg" alt=""/></a></li>
-						<li><a href="#"><img src="extra-images/instagram-2.jpg" alt=""/></a></li>
-						<li><a href="#"><img src="extra-images/instagram-3.jpg" alt=""/></a></li>
-						<li><a href="#"><img src="extra-images/instagram-4.jpg" alt=""/></a></li>
-						<li><a href="#"><img src="extra-images/instagram-5.jpg" alt=""/></a></li>
-						<li><a href="#"><img src="extra-images/instagram-6.jpg" alt=""/></a></li>
-					</ul>
+					<h5>Facebook Follow Up</h5>
+					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdigitalcrownmarketing%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="180" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 				</div>
 			</div>
 			<!--EDU2 FOOTER CONTANT DES END-->
 
 			<!--EDU2 FOOTER CONTANT DES START-->
-			<div class="col-md-3">
+			<div class="col-md-4">
 				<div class="widget widget-contact">
 					<h5>Contact</h5>
 					<ul>
-						<li>PO Box UN152468, 1 Street North, New Towm, California, USA</li>
-						<li>Phone : <a href="#"> 5 (012) 4565 789</a></li>
-						<li>Fax : <a href="#"> 5 (012) 4565 789</a></li>
-						<li>Email : <a href="#"> Info@info.com</a></li>
+						<li>Emerald Palza, Shop No. 16, Behind Standard Chartered Bank, Hiranandani Meadows, Thane (W) 400610.</li>
+						<li>Phone : <a href="#"> +91 9820046087</a></li>
+						<li>Email : <a href="#"> shivanigrouptuitions@gmail.com</a></li>
 					</ul>
 				</div>
 			</div>
@@ -70,26 +62,12 @@
 <div class="edu2_copyright_wrap">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
-				<div class="edu2_ft_logo_wrap">
-					<a href="#"><img src="extra-images/ft_logo.png" alt=""/></a>
-				</div>
+			<div class="col-md-6">
+				<span class="leftmargin10">&copy;  shivanigrouptuitions. All Rights reserved. </span>
 			</div>
 
 			<div class="col-md-6">
-				<div class="copyright_des">
-					<span>&copy; All Rights reserved. Powered By <a href="#">KODEFOREST</a></span>
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<ul class="cards_wrap">
-					<li><a href="#"><img src="extra-images/visacard.png" alt=""/></a></li>
-					<li><a href="#"><img src="extra-images/mastercard.png" alt=""/></a></li>
-					<li><a href="#"><img src="extra-images/americancard.png" alt=""/></a></li>
-					<li><a href="#"><img src="extra-images/card.png" alt=""/></a></li>
-					<li><a href="#"><img src="extra-images/descoverycard.png" alt=""/></a></li>
-				</ul>
+			<span class="pull-right">Powered By <a href="https://digitalcrown.in/" target="_blank">Digital Crown</a></span>
 			</div>
 		</div>
 	</div>
